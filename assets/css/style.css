@@ -9,7 +9,7 @@
    */
 
    body {
-      background-color: #d6d6d6;
+      background-color: #e0e0e0;
    }
 
    .container{
@@ -87,4 +87,22 @@
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       color: #777777;
       line-height: 2;
+   }
+
+   h3 {
+      Margin: 20px;
+      font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      font-size: 16px;
+      color: #777777;
+   }
+
+   input {
+      width: 900px;
+      margin: 0px 30px;
+   }
+
+   textarea {
+      width: 900px;
+      margin: 0px 30px;
+      height: 120px;
    }
