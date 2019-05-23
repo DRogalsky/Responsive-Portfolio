@@ -9,7 +9,7 @@
    */
 
    body {
-      background-color: #e0e0e0;
+      background: #e0e0e0;
    }
 
    .container{
@@ -105,4 +105,12 @@
       width: 900px;
       margin: 0px 30px;
       height: 120px;
+   }
+
+   button {
+      padding: 10px 40px;
+      margin: 20px 30px;
+      color: white;
+      background-color: #4aaaa5;
+      border: none;
    }
