@@ -116,6 +116,10 @@
       border: none;
    }
 
+   button:hover {
+      background-color: #255552;
+   }
+
    #pictures {
       margin: 0 auto;
       width: 668px;
