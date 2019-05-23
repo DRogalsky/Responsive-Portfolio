@@ -114,3 +114,11 @@
       background-color: #4aaaa5;
       border: none;
    }
+
+   footer {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      background-color: #666666;
+      height: 5em;
+   }
