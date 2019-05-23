@@ -8,19 +8,30 @@
    * Main content border color: `#dddddd` 
    */
 
+   body {
+      /* margin: 0 5em; */
+      background-color: #cccccc;
+   }
+
+   .container{
+      background-color: #ffffff;
+   }
+
    nav {
-      display: inline-block;
-      position: sticky;
-      top: 0;
-      margin: 0;
-      padding: 0;
+      /* display: inline-block;
+      margin: 0; */
+      /* padding: 1em 1em; */
       width: 100%;
+      background-color:#ffffff;
    }
 
    nav h1{
       display: inline-block;
       margin: 0;
-      padding: 0;
+      padding: 1em 1em;
+      background-color: #4aaaa5;
+      color: white;
+      height: 100%;
    }
 
    nav ul {
@@ -33,9 +44,14 @@
 
    nav ul li{
       display: inline-block;
+      margin: 0;
+      
    }
 
    nav ul li a{
-      display: block;
+      display: inline-block;
       padding: 2em 1em;
+      margin: 0;
+      text-decoration: none;
+      color: #777777;
    }
