@@ -9,7 +9,8 @@
    */
 
    body {
-      background: #e0e0e0;
+      /* background: #e0e0e0; */
+      background: url('../images/papyrus.png')
    }
 
    .container{
@@ -113,6 +114,19 @@
       color: white;
       background-color: #4aaaa5;
       border: none;
+   }
+
+   #pictures {
+      margin: 0 auto;
+      width: 668px;
+   }
+
+   #pictures img {
+      margin: 10px;
+   }
+
+   .cookies {
+      height: 550px;
    }
 
    footer {
