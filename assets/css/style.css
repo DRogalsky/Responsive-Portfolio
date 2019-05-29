@@ -142,6 +142,26 @@
       border-top: 0.3em solid #4aaaa5;
    }
 
+   @media screen and (max-width: 980px) {
+      body {
+         min-height: 800px;
+      }
+
+      nav {
+         width: 100vw;
+      }
+
+      nav h1 {
+         margin-left: 0px;
+         margin-right: 0;
+      }
+
+      nav ul {
+         margin:0
+      }
+
+   }
+
    @media screen and (max-width: 768px) {
       nav h1 {
          margin-left: 0;
@@ -170,5 +190,37 @@
    }
 
    @media screen and (max-width: 640px) {
+      nav h1{
+         font-size: 20px;
+      }
+
+      nav ul li {
+         margin: 0 auto;
+         padding: 0;
+      }
+
+      nav ul li a{
+         margin: 0 auto;
+         padding: 20px 30px;
+      }
+
+      .container {
+         height: 100%;
+      }
+
+      input {
+         width: 80%;
+      }
+
+      textarea {
+         width: 80%;
+      }
+
+      #pictures img {
+         height: 150px;
+         width: 160px;
+         margin: 20px;
+      }
+
 
    }

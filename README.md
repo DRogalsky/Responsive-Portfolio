@@ -1,13 +1,14 @@
 # Basic-Portfolio
 
 ## Usage
-Click the navbar to go between pages. The about page is just a small snippet about me. The contacts page is where you would send an email to me but currently the button does nothing. The portfolio page is just a place holder for now but the pictures will soon be links to my
+Click the navbar to go between pages. The about page is just a small snippet about me. The contacts page is where you would send an email to me but currently the button does nothing. The portfolio page is just a place holder for now but the pictures will soon be links to my projects.
 
 ## Challenges
-Setting the form up took a lot of time for the text boxes I set the width to 900px (60 less than the container of 960px) and gave them 30px side margin for the textarea I changed it to 900px then changed the height until it came to just above the button. This allowed for a more uniform look with the evenly spaced headers and I'm happy with the final product. In the future I would change the forms ability to react to the space of the screen.
+I'm a little less proud of this one but I learned a lot more. I used pixels to define a lot of sizes in this originally so for the resizing portion I had to basically rewrite a lot of the code. Also while my code looks good at those 3 specific levels all the random pixel definitons im usure about at this point make sizing in between weird.
 
-I like making navbars but I actually had a bit of trouble with this one caused by the default margins and such. The reset css file saved me a lot of headache by taking out all default styling. The allignment on my name is accomplished with a height of 100% and a very large left margin.
+If I were to do this and the first homework again I would start with reactivity in mind and not use pixels to define the size of things as much using more em and percentages along with vh and vw. This would mean the page itself would scale better overall and the changes I would have to make may be less sever.
 
-This was my first real project on git. So i had a few issues getting some of my changes to work on the deployed git page. Getting into a habit of commiting often was also hard but by the end I was remembering to commit after every section of a page was done.
+one thing I am proud of is i got the form to scale at all sized below 680px since it let me concentrate on other parts
+the nav bar doesn't really like being shrunk in my current styling so I want to figure out how to maybe write a mor reactive one
 ## Authors
 Daniel Rogalsky
