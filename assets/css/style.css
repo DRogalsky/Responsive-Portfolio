@@ -135,9 +135,40 @@
 
    footer {
       width: 100%;
-      position: absolute;
+      position: fixed;
       bottom: 0;
       background-color: #666666;
       height: 5em;
       border-top: 0.3em solid #4aaaa5;
+   }
+
+   @media screen and (max-width: 768px) {
+      nav h1 {
+         margin-left: 0;
+      }
+      nav ul {
+         margin-right: 0;
+      }
+      .container {
+         width: 100%;
+         border-left: none;
+         border-right: none;
+         padding-bottom: 1em;
+      }
+
+      input {
+         width: 700px;
+      }
+
+      textarea {
+         width: 700px;
+      }
+
+      body {
+         min-height: 800px;
+      }
+   }
+
+   @media screen and (max-width: 640px) {
+
    }
